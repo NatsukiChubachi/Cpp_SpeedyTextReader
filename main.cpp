@@ -9,12 +9,18 @@
 
 #include "SpeedyTextReader.h"
 
+#include "BlockUnitMemory.h"
+
 int main( int argc, char **argv )
 {
 	// メモリリーク検出
 	_CrtSetDbgFlag( _CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF );
 
 	printf("Hello World. \n");
+
+	{
+		// CBlockUnitMemory<int> cBM;
+	}
 
 	{
 		// 計測点開始

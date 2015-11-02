@@ -5,15 +5,24 @@
     <ClCompile Include="SpeedyTextReader.cpp">
       <Filter>SpeedyTextReader</Filter>
     </ClCompile>
+    <ClCompile Include="BlockUnitMemory.cpp">
+      <Filter>BlockUnitMemory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="SpeedyTextReader">
       <UniqueIdentifier>{06472fe2-9be2-4a93-b3b9-f435549829c2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="BlockUnitMemory">
+      <UniqueIdentifier>{55897a10-2c3a-49b2-8aaf-482bf06fde4b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SpeedyTextReader.h">
       <Filter>SpeedyTextReader</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockUnitMemory.h">
+      <Filter>BlockUnitMemory</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
