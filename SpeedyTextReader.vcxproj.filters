@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SpeedyTextReader.cpp">
+      <Filter>SpeedyTextReader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SpeedyTextReader">
+      <UniqueIdentifier>{06472fe2-9be2-4a93-b3b9-f435549829c2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SpeedyTextReader.h">
+      <Filter>SpeedyTextReader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
