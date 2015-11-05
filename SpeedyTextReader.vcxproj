@@ -139,12 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BlockUnitMemory.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SpeedyTextReader.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BlockUnitMemory.h" />
     <ClInclude Include="SpeedyTextReader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

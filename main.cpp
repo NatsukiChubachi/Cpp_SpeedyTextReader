@@ -3,13 +3,14 @@
 #include <Windows.h>
 #include <MMSystem.h>
 
+// 速読TextReaderクラス
+#include "SpeedyTextReader.h"
+
+// メモリリーク検出用
 #define _CRTDBG_MAP_ALLOC
 #include <stdlib.h>
 #include <crtdbg.h>
 
-#include "SpeedyTextReader.h"
-
-#include "BlockUnitMemory.h"
 
 int main( int argc, char **argv )
 {
